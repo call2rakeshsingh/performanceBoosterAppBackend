@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 7000
 const app = express()
 
 // const allowedOrigins = ['http://localhost:3000','http://192.168.1.106:3000'];
-const allowedOrigins = ['https://userperformancebooster.netlify.app/'];
+const allowedOrigins = ['https://userperformancebooster.netlify.app'];
 
 app.use(cors({
     origin: function(origin, callback) {
